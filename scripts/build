@@ -8,3 +8,4 @@ NEBULA_TASKS_REPO_BASE="${NEBULA_TASKS_REPO_BASE:-gcr.io/nebula-235818}"
 
 docker build -f ./cmd/relay-operator/Dockerfile -t "${NEBULA_TASKS_REPO_BASE}/relay-operator:${VERSION}" .
 docker build -f ./cmd/relay-metadata-api/Dockerfile -t "${NEBULA_TASKS_REPO_BASE}/relay-metadata-api:${VERSION}" .
+docker build -f ./cmd/relay-metrics/Dockerfile -t "${NEBULA_TASKS_REPO_BASE}/relay-metrics:${VERSION}" .
