@@ -2,6 +2,6 @@
 build:
 	@./scripts/ci build
 
-.PHONY: nebula-%
-nebula-%:
+.PHONY: relay-%
+relay-%:
 	@./scripts/ci build $@

@@ -3,6 +3,7 @@ module github.com/puppetlabs/relay-core
 go 1.13
 
 require (
+	cloud.google.com/go v0.47.0
 	cloud.google.com/go/storage v1.1.2 // indirect
 	github.com/PaesslerAG/gval v1.0.2-0.20190803062529-6fceb06ca162 // indirect
 	github.com/PaesslerAG/jsonpath v0.1.1 // indirect
@@ -10,6 +11,7 @@ require (
 	github.com/frankban/quicktest v1.7.3 // indirect
 	github.com/gofrs/flock v0.7.1
 	github.com/golang/groupcache v0.0.0-20191002201903-404acd9df4cc // indirect
+	github.com/golang/protobuf v1.3.3
 	github.com/gomarkdown/markdown v0.0.0-20200513213024-62c5e2c608cc
 	github.com/google/uuid v1.1.1
 	github.com/gorilla/mux v1.7.3
@@ -40,6 +42,7 @@ require (
 	github.com/tektoncd/pipeline v0.12.0
 	github.com/xeipuuv/gojsonschema v1.2.0
 	golang.org/x/net v0.0.0-20200202094626-16171245cfb2
+	google.golang.org/genproto v0.0.0-20191009194640-548a555dbc03
 	gopkg.in/ini.v1 v1.48.0 // indirect
 	gopkg.in/square/go-jose.v2 v2.4.1
 	gopkg.in/yaml.v2 v2.2.8
